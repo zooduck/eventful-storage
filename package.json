@@ -1,0 +1,26 @@
+{
+  "name": "@zooduck/eventful-storage",
+  "version": "0.0.1",
+  "description": "Adds eventful proxies for localStorage and sessionStorage to the global namespace",
+  "main": "dist/index.module.js",
+  "type": "module",
+  "repository": {
+    "url": "git+https://github.com/zooduck/eventful-storage.git"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js src --coverage",
+    "build": "node build"
+  },
+  "author": "zooduck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zooduck/eventful-storage/issues"
+  },
+  "homepage": "https://github.com/zooduck/eventful-storage#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@zooduck/build-tools": "^0.0.2",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1"
+  }
+}
